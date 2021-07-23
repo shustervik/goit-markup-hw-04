@@ -313,28 +313,28 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .name {
-  padding: 30px 0 16px;
-}
-.social-links {
-  padding: 0 0 30px;
+  padding: 30px 0 30px;
   /* outline: 2px solid tomato; */
 }
 .social-links-list {
   display: flex;
   padding: 0;
   margin: 0;
+  margin-top: 16px;
+  margin-left: -10px;
   align-items: center;
   justify-content: center;
-  margin-left: -10px;
   list-style: none;
   /* outline: 2px solid tomato; */
+}
+.network {
+  margin-left: 10px;
 }
 .social-link {
   display: inline-block;
   height: 44px;
   width: 44px;
   margin: 0;
-  margin-left: 10px;
   padding: 12px;
   color: var(--social-link-color);
   cursor: pointer;
@@ -469,7 +469,6 @@ img {
   height: 44px;
   width: 44px;
   margin: 0;
-  margin-left: 10px;
   padding: 12px;
   color: var(--secondary-color);
   background-color: rgba(255, 255, 255, 0.1);
